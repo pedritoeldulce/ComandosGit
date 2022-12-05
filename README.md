@@ -13,7 +13,7 @@
 
 
 ### GIT ADD
-- Lleva archivos desde Wrongin Directory -> Staging Area.
+- Lleva archivos desde Working Directory -> Staging Area.
 
         git add <name_archivo>
 
@@ -21,8 +21,12 @@
 ### GIT RESTORE
 - Deshace los cambios, regresa al último commit anterior.
 
-        git restore <Name_Archivo>
+        git restore <name_archivo>
 
 
+### GIT COMMIT
+- Todos los archivos Modificados van a pasar a Stagin Area -> Directorio Git en un solo paso con el siguiente comando
+
+        git commit -am "message"
 
 !["Estados de GIT"](./img/GitEstados.png)
