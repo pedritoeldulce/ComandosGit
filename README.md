@@ -9,4 +9,20 @@
 - Archivos llevados desde el Staging area -> repositorio GIT a través del comando `git commit`(archivo oculto)
 
 
+## Comandos GIT: 
+
+
+### GIT ADD
+- Lleva archivos desde Wrongin Directory -> Staging Area.
+
+        git add <name_archivo>
+
+
+### GIT RESTORE
+- Deshace los cambios, regresa al último commit anterior.
+
+        git restore <Name_Archivo>
+
+
+
 !["Estados de GIT"](./img/GitEstados.png)
