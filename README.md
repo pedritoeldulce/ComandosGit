@@ -9,6 +9,10 @@
 - Archivos llevados desde el Staging area -> repositorio GIT a través del comando `git commit`(archivo oculto)
 
 
+
+!["Estados de GIT"](./img/GitEstados.png)
+
+
 ## Comandos GIT: 
 
 
@@ -24,9 +28,13 @@
         git restore <name_archivo>
 
 
-### GIT COMMIT
+### GIT COMMIT -AM
 - Todos los archivos Modificados van a pasar a Stagin Area -> Directorio Git en un solo paso con el siguiente comando
 
         git commit -am "message"
+ 
 
-!["Estados de GIT"](./img/GitEstados.png)
+### DOCUMENTACION DEL PROYECTO
+- creación de repositorio.
+- trabajos colaborativos.
+- etc.
