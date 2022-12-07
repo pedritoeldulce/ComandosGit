@@ -30,6 +30,12 @@
 
 ### GIT RESTORE --STADGE
 
+
+
+### GIT RESTORE .
+- deshace todos los cambios hechos en el Working directory de todos los archivos.
+
+        git restore .
 ### GIT COMMIT -AM
 - Todos los archivos Modificados van a pasar a Stagin Area -> Directorio Git en un solo paso con el siguiente comando
 
@@ -40,6 +46,13 @@
 - Trae el commit de main (HEAD) y lo aplica por encima de los cambios, con esto lo deja como estaba al principio.
 
         git checkout -- <archivo>
+        git checkout <archivo>
+
+### GIT CHECKOUT -F
+- Trae el commit anterior proximo de la cabecera (HEAD) y lo aplica por encima de los cambios hechos en working directory, todo esto para todos los archivos.
+
+        git checkout -f
+
 
 ### DOCUMENTACION DEL PROYECTO
 - creación de repositorio.
