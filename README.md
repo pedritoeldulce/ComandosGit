@@ -29,8 +29,15 @@
 
 
 ### GIT RESTORE --STADGE
+- regresa el archivo de Staging area -> working directory
+
+        git restore --staged <archivo>
 
 
+### GIT RESTORE --STAGED --WORKTREE 
+- regresa el archivo de staging area a working directory para luego eliminar todo los cambios del archivo.
+
+        git restore --staged --worktree <archivo>
 
 ### GIT RESTORE .
 - deshace todos los cambios hechos en el Working directory de todos los archivos.
