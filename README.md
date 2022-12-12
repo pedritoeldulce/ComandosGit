@@ -43,6 +43,7 @@
 - deshace todos los cambios hechos en el Working directory de todos los archivos.
 
         git restore .
+        
 ### GIT COMMIT -AM
 - Todos los archivos Modificados van a pasar a Stagin Area -> Directorio Git en un solo paso con el siguiente comando
 
@@ -60,6 +61,20 @@
 
         git checkout -f
 
+### GIT LOG 
+- Comando que muestra todos los commits en el historial del repositorio. Por defecto, muestra los datos de cada commit.
+
+        git log
+
+### GIT LOG --ONELINE
+- Muestra los commits en el historial de  `manera resumida`.
+
+        git log --oneline
+
+### GIT STATUS
+- Muestra el estado del directorio de trabajo y del àrea del entorno de trabajo.
+
+        git status
 
 ### DOCUMENTACION DEL PROYECTO
 - creación de repositorio.
