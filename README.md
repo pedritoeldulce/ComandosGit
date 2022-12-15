@@ -39,16 +39,22 @@
 
         git restore --staged --worktree <archivo>
 
+
 ### GIT RESTORE .
 - deshace todos los cambios hechos en el Working directory de todos los archivos.
 
         git restore .
         
+esto se elimina
 ### GIT COMMIT -AM
 - Todos los archivos Modificados van a pasar a Stagin Area -> Directorio Git en un solo paso con el siguiente comando
 
         git commit -am "message"
  
+### GIT COMMIT -M "CABECERA DEL COMMIT" -M "CUERPO DEL COMMIT" 
+- Forma de excribir buenos mensaje de Commits
+
+        git commit -m "" -m ""
 
 ### GIT CHECKOUT -- <archivo>
 - Trae el commit de main (HEAD) y lo aplica por encima de los cambios, con esto lo deja como estaba al principio.
