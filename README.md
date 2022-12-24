@@ -89,6 +89,18 @@ esto se elimina
         git status
 
 
+### GIT DIFF
+- Muestra la diferencia (lo que se pueda agregar o quitar de lineas de código)
+- con respecto al ultimo commit, en este caso se debe indicar el archivo del cual se desea
+- saber la diferencia
+
+        git diff pages/contacto.html
+
+- otra forma
+
+        git --stat pages/contacto.html
+
+
 
 ### DOCUMENTACION DEL PROYECTO
 - creación de repositorio.
