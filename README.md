@@ -73,6 +73,16 @@ esto se elimina
 
         git checkout -f
 
+### GIT CHECKOUT <hash del commit>
+- Permite navegar entre los diferentes commits
+
+        git checkout <hash>      
+
+para retornar al ultimo commit
+
+        git checkout main
+
+
 ### GIT LOG 
 - Comando que muestra todos los commits en el historial del repositorio. Por defecto, muestra los datos de cada commit.
 
