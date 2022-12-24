@@ -54,7 +54,13 @@ esto se elimina
 ### GIT COMMIT -M "CABECERA DEL COMMIT" -M "CUERPO DEL COMMIT" 
 - Forma de excribir buenos mensaje de Commits
 
-        git commit -m "" -m ""
+        git commit -m "cabecera de mensaje" -m "cuerpo de mensaje"
+
+
+### GIT COMMIT --AMEND -M "MENSAJE"
+- PERMITE CAMBIAR EL MENSAJE DEL ULTIMO COMMIT
+
+        git commit --amend -m "messaje" [-m "body del mensaje"]
 
 ### GIT CHECKOUT -- <archivo>
 - Trae el commit de main (HEAD) y lo aplica por encima de los cambios, con esto lo deja como estaba al principio.
@@ -82,7 +88,9 @@ esto se elimina
 
         git status
 
+
+
 ### DOCUMENTACION DEL PROYECTO
 - creación de repositorio.
 - trabajos colaborativos.
-- etc.
+- Trabajo con ramas.
