@@ -82,6 +82,10 @@ para retornar al ultimo commit
 
         git checkout main
 
+### GIT CHECKOUT -B <name_rama>
+- Crea una nueva rama
+
+        git checkout -b dev
 
 ### GIT LOG 
 - Comando que muestra todos los commits en el historial del repositorio. Por defecto, muestra los datos de cada commit.
@@ -131,3 +135,8 @@ Muestra los 3 ùltimos commits
 - creación de repositorio.
 - trabajos colaborativos.
 - Trabajo con ramas.
+- Trabajo con ramas remotas
+
+
+## Rama dev
+se tiene 2 ramas
