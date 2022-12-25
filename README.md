@@ -120,6 +120,12 @@ Muestra los 3 ùltimos commits
         git --stat pages/contacto.html
 
 
+### GIT SWITCH <name_rama>
+- Cambia de rama
+
+        git switch main
+
+
 
 ### DOCUMENTACION DEL PROYECTO
 - creación de repositorio.
