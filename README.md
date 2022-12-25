@@ -129,3 +129,8 @@ Muestra los 3 ùltimos commits
 - creación de repositorio.
 - trabajos colaborativos.
 - Trabajo con ramas.
+- Trabajo con ramas remotas
+
+
+## Rama dev
+se tiene 2 ramas
