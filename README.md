@@ -93,6 +93,15 @@ para retornar al ultimo commit
 
         git log --oneline
 
+
+### GIT LOG --ONELINE -N <number>
+- Indica los numeros de commits a mostrar
+
+        git log --oneline -n 3
+
+Muestra los 3 ùltimos commits
+
+
 ### GIT STATUS
 - Muestra el estado del directorio de trabajo y del àrea del entorno de trabajo.
 
