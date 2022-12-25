@@ -130,6 +130,18 @@ Muestra los 3 ùltimos commits
         git switch main
 
 
+### GIT BRANCH -D <RAMA>
+- Elimina ramas locales
+
+        git branch -D dev
+
+### GIT MERGE <NAME RAMA>
+- Mezcla las ramas locales
+
+        git merge dev
+
+Mezcla la rama dev con la rama main
+obs: si en ambas ramas se hizo modificaciones, nos consultarà cual de los 2 sobreescribir.
 
 ### DOCUMENTACION DEL PROYECTO
 - creación de repositorio.
