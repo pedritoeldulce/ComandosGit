@@ -148,6 +148,11 @@ Muestra los 3 ùltimos commits
 Mezcla la rama dev con la rama main
 obs: si en ambas ramas se hizo modificaciones, nos consultarà cual de los 2 sobreescribir.
 
+### GIT REMOTE
+- Muestra las ramas remotas del repositorio GIT
+        
+        git remote -v
+
 ### DOCUMENTACION DEL PROYECTO
 - creación de repositorio.
 - trabajos colaborativos.
@@ -157,3 +162,19 @@ obs: si en ambas ramas se hizo modificaciones, nos consultarà cual de los 2 sob
 
 ## Rama dev
 se tiene 2 ramas
+
+
+### RAMAS REMOTAS
+- GIT trabaja como ramas locales y remotas; utilizamos las ramaas remotas con la finalidad de compartir nuestro código con otros usuarios, algunas operaciones entre ellas:
+
+- Sirve para enviar nuestros cambios de la rama local hacia el origin de la rama remota
+
+        git push origin main
+        
+ - Sirve para traer los commits de la rama remota hacia la rama local 
+ 
+        git fetch origin
+        
+ - Sirve para extraer (jalar) todos los cambios de la rama remota hacia la rama local
+ 
+        git pull origin main
