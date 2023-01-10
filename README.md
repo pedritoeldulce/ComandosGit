@@ -148,6 +148,13 @@ Muestra los 3 ùltimos commits
 Mezcla la rama dev con la rama main
 obs: si en ambas ramas se hizo modificaciones, nos consultarà cual de los 2 sobreescribir.
 
+### CREAR UNA RAMA REMOTA
+- Se crear una rama de manera local
+        git checkout -b <name_rama>
+        
+- Se umpuja los cambios indicando la rama, con esto se crea de manera remota la rama.
+        git push origin <name_rama>
+
 ### DOCUMENTACION DEL PROYECTO
 - creación de repositorio.
 - trabajos colaborativos.
