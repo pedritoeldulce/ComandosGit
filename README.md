@@ -73,6 +73,11 @@ esto se elimina
 
         git checkout -f
 
+### GIT CHECKOUT -b <NAME RAMA>
+- Crear una nueva rama
+
+        git checkout -b dev
+
 ### GIT CHECKOUT <hash del commit>
 - Permite navegar entre los diferentes commits
 
