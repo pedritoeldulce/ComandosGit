@@ -165,6 +165,11 @@ obs: si en ambas ramas se hizo modificaciones, nos consultarà cual de los 2 sob
         
 ![](./img/ramas_remotas.png)
 
+### Eliminar Ramas Remotas
+- Elmima una rama remota
+
+        git --delete push origin <name_rama_remota>
+
 
 ### DOCUMENTACION DEL PROYECTO
 - creación de repositorio.
