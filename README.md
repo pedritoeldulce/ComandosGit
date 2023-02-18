@@ -159,7 +159,7 @@ obs: si en ambas ramas se hizo modificaciones, nos consultarà cual de los 2 sob
 
         git checkout -b <name_rama>
 
-- Se umpuja los cambios indicando la rama, con esto se crea de manera remota la rama.
+- Se empuja los cambios indicando la rama, con esto se crea de manera remota la rama.
 
         git push origin <name_rama>
         
@@ -175,6 +175,8 @@ obs: si en ambas ramas se hizo modificaciones, nos consultarà cual de los 2 sob
 
 ## Rama dev
 se tiene 2 ramas
+- Rama main
+- Rama dev
 
 
 ### RAMAS REMOTAS
